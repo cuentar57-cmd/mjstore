@@ -156,6 +156,8 @@ body{font-family:'Outfit',-apple-system,sans-serif;background:var(--bg);color:va
 .card-price{display:flex;align-items:baseline;justify-content:center;gap:3px;margin-bottom:14px}
 .price-cur{font-size:.84rem;font-weight:700;color:var(--acc)}
 .price-num{font-size:2.1rem;font-weight:900;letter-spacing:-2px;color:var(--t)}
+.btn-consult{width:100%;background:linear-gradient(135deg,#25d366,#1db954);color:#fff;border:none;padding:9px;border-radius:var(--rm);font-family:'Outfit',sans-serif;font-weight:700;font-size:.82rem;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;margin-bottom:7px;transition:opacity .2s}
+.btn-consult:hover{opacity:.88}
 .btn-detail{width:100%;background:transparent;border:1px solid var(--bb);color:var(--acc);padding:10px;border-radius:var(--rm);font-family:'Outfit',sans-serif;font-weight:700;font-size:.84rem;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;position:relative;overflow:hidden;transition:border-color .3s}
 .btn-detail::before{content:'';position:absolute;inset:0;background:var(--acc);transform:scaleX(0);transform-origin:left;transition:transform .32s cubic-bezier(.16,1,.3,1)}
 .btn-detail span,.btn-detail svg{position:relative;z-index:1;transition:color .28s}
@@ -239,6 +241,8 @@ footer{background:var(--bge);border-top:1px solid var(--bd);padding:40px 24px;te
 .m-wa{width:100%;background:linear-gradient(135deg,#25d366,#1db954);color:#fff;border:none;padding:14px;border-radius:var(--rl);font-family:'Outfit',sans-serif;font-weight:800;font-size:.93rem;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;box-shadow:0 7px 24px rgba(37,211,102,.28)}
 .m-wa:hover{transform:translateY(-2px);box-shadow:0 13px 32px rgba(37,211,102,.42)}
 .m-note{text-align:center;font-size:.72rem;color:var(--t2);margin-top:8px}
+.m-extras{display:flex;flex-direction:column;gap:8px;margin:14px 0 18px;padding:14px;background:rgba(0,180,216,.04);border:1px solid var(--bd);border-radius:var(--rl)}
+.m-extra-item{font-size:.84rem;font-weight:500;color:var(--t);line-height:1.4}
 .m-inst{margin:14px 0 18px}
 .m-inst-hdr{display:flex;align-items:center;gap:12px;margin-bottom:12px}
 .m-inst-line{flex:1;height:1px;background:var(--bd);opacity:.5}
@@ -436,7 +440,7 @@ footer{background:var(--bge);border-top:1px solid var(--bd);padding:40px 24px;te
       <a href="https://instagram.com" target="_blank" class="nav-btn ig">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
       </a>
-      <a href="https://wa.me/5493585079522" target="_blank" class="nav-btn wa">
+      <a href="https://wa.me/5492994655758" target="_blank" class="nav-btn wa">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.137.562 4.14 1.534 5.875L0 24l6.299-1.506A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.939 0-3.762-.523-5.328-1.432l-.38-.226-3.739.893.927-3.638-.248-.397A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
       </a>
       <button class="nav-btn th" onclick="toggleTheme()">
@@ -664,14 +668,14 @@ footer{background:var(--bge);border-top:1px solid var(--bd);padding:40px 24px;te
       <a href="#seminuevos">Seminuevos</a>
       <a href="#accesorios">Accesorios</a>
       <a href="#playstation">PlayStation</a>
-      <a href="https://wa.me/5493585079522" target="_blank">WhatsApp</a>
+      <a href="https://wa.me/5492994655758" target="_blank">WhatsApp</a>
     </div>
     <p class="footer-copy">© 2025 MJ Store · Todos los derechos reservados</p>
     <p class="footer-credit">hecho por <a href="https://instagram.com/btarratweb" target="_blank">@btarratweb</a></p>
   </div>
 </footer>
 
-<a href="https://wa.me/5493585079522" class="wa-float" target="_blank">
+<a href="https://wa.me/5492994655758" class="wa-float" target="_blank">
   <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.137.562 4.14 1.534 5.875L0 24l6.299-1.506A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.939 0-3.762-.523-5.328-1.432l-.38-.226-3.739.893.927-3.638-.248-.397A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
 </a>
 
@@ -687,19 +691,19 @@ footer{background:var(--bge);border-top:1px solid var(--bd);padding:40px 24px;te
 <script>
 // Scroll buttons
 const sealed=[
-  {id:101,brand:'Apple',model:'iPhone 16 Pro Max',storage:'256GB',ram:'8GB',battery:'4685 mAh',price:1250,priceArs:1312500,colors:[{name:'Titanio desierto',bg:'#c8b89a',text:'#333'},{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'}],category:'iphone'},
-  {id:102,brand:'Apple',model:'iPhone 16',storage:'128GB',ram:'8GB',battery:'3561 mAh',price:920,priceArs:966000,colors:[{name:'Ultramarino',bg:'#3a4f7a',text:'#fff'},{name:'Blanco',bg:'#f5f5f0',text:'#333'}],category:'iphone'},
-  {id:103,brand:'Apple',model:'iPhone 15 Pro Max',storage:'256GB',ram:'8GB',battery:'4422 mAh',price:1050,priceArs:1102500,colors:[{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'},{name:'Titanio blanco',bg:'#e8e8e8',text:'#333'}],category:'iphone'},
-  {id:104,brand:'Samsung',model:'Galaxy S25 Ultra',storage:'256GB',ram:'12GB',battery:'5000 mAh',price:1100,priceArs:1155000,colors:[{name:'Phantom Black',bg:'#1a1a1a',text:'#fff'},{name:'Titanium Gray',bg:'#8a8a8a',text:'#fff'}],category:'samsung'},
-  {id:105,brand:'Samsung',model:'Galaxy S24 FE',storage:'256GB',ram:'8GB',battery:'4700 mAh',price:680,priceArs:714000,colors:[{name:'Navy',bg:'#1a2a4a',text:'#fff'},{name:'Mint',bg:'#a8d8b9',text:'#333'}],category:'samsung'},
+  {id:101,brand:'Apple',model:'iPhone 17',storage:'256GB',ram:'8GB',battery:'100%',colors:[{name:'Silver',bg:'#e8e8e8',text:'#333'}],category:'iphone'},
+  {id:102,brand:'Apple',model:'iPhone 17 Pro',storage:'256GB',ram:'8GB',battery:'100%',colors:[{name:'Orange',bg:'#d4622a',text:'#fff'},{name:'Silver',bg:'#e8e8e8',text:'#333'},{name:'Blue',bg:'#2c5f8a',text:'#fff'}],category:'iphone'},
+  {id:103,brand:'Apple',model:'iPhone 17 Pro Max',storage:'256GB',ram:'8GB',battery:'100%',colors:[{name:'Orange',bg:'#d4622a',text:'#fff'},{name:'Silver',bg:'#e8e8e8',text:'#333'},{name:'Blue',bg:'#2c5f8a',text:'#fff'}],category:'iphone'},
 ];
 const used=[
-  {id:201,brand:'Apple',model:'iPhone 14',storage:'128GB',ram:'6GB',battery:'3279 mAh',price:570,priceArs:598500,colors:[{name:'Medianoche',bg:'#1a1a2e',text:'#fff'},{name:'Blanco estrella',bg:'#f5f5f0',text:'#333'}],category:'iphone',sale:true,saleLabel:'OUTLET'},
-  {id:202,brand:'Apple',model:'iPhone 13',storage:'128GB',ram:'4GB',battery:'3227 mAh',price:430,priceArs:451500,colors:[{name:'Medianoche',bg:'#1a1a2e',text:'#fff'},{name:'Rojo',bg:'#d60000',text:'#fff'}],category:'iphone'},
-  {id:203,brand:'Apple',model:'iPhone 15',storage:'128GB',ram:'6GB',battery:'3349 mAh',price:780,priceArs:819000,colors:[{name:'Rosa',bg:'#f4c2c2',text:'#333'},{name:'Amarillo',bg:'#f9e4b7',text:'#333'}],category:'iphone'},
-  {id:204,brand:'Samsung',model:'Galaxy S24',storage:'256GB',ram:'8GB',battery:'4000 mAh',price:680,priceArs:714000,colors:[{name:'Onyx Black',bg:'#1a1a1a',text:'#fff'},{name:'Marble Gray',bg:'#9e9e9e',text:'#fff'}],category:'samsung'},
-  {id:205,brand:'Samsung',model:'Galaxy A55',storage:'128GB',ram:'8GB',battery:'5000 mAh',price:360,priceArs:378000,colors:[{name:'Azul hielo',bg:'#b0d4e8',text:'#333'},{name:'Negro',bg:'#1a1a1a',text:'#fff'}],category:'samsung',sale:true,saleLabel:'OUTLET'},
-  {id:206,brand:'Apple',model:'iPhone 12',storage:'64GB',ram:'4GB',battery:'2815 mAh',price:320,priceArs:336000,colors:[{name:'Azul',bg:'#2c5f8a',text:'#fff'},{name:'Negro',bg:'#1a1a1a',text:'#fff'}],category:'iphone'},
+  {id:201,brand:'Apple',model:'iPhone 13',storage:'128GB',ram:'4GB',battery:'85%',colors:[{name:'Medianoche',bg:'#1a1a2e',text:'#fff'},{name:'Rojo',bg:'#d60000',text:'#fff'},{name:'Blanco estrella',bg:'#f5f5f0',text:'#333'}],category:'iphone'},
+  {id:202,brand:'Apple',model:'iPhone 14',storage:'128GB',ram:'6GB',battery:'82%',colors:[{name:'Medianoche',bg:'#1a1a2e',text:'#fff'},{name:'Blanco estrella',bg:'#f5f5f0',text:'#333'},{name:'Rojo',bg:'#d60000',text:'#fff'}],category:'iphone'},
+  {id:203,brand:'Apple',model:'iPhone 15',storage:'128GB',ram:'6GB',battery:'88%',colors:[{name:'Rosa',bg:'#f4c2c2',text:'#333'},{name:'Amarillo',bg:'#f9e4b7',text:'#333'},{name:'Verde',bg:'#b5d8cc',text:'#333'}],category:'iphone'},
+  {id:204,brand:'Apple',model:'iPhone 15 Pro',storage:'128GB',ram:'8GB',battery:'86%',colors:[{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'},{name:'Titanio blanco',bg:'#e8e8e8',text:'#333'}],category:'iphone'},
+  {id:205,brand:'Apple',model:'iPhone 15 Pro Max',storage:'256GB',ram:'8GB',battery:'84%',colors:[{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'},{name:'Titanio blanco',bg:'#e8e8e8',text:'#333'}],category:'iphone'},
+  {id:206,brand:'Apple',model:'iPhone 16',storage:'128GB',ram:'8GB',battery:'90%',colors:[{name:'Ultramarino',bg:'#3a4f7a',text:'#fff'},{name:'Blanco',bg:'#f5f5f0',text:'#333'}],category:'iphone'},
+  {id:207,brand:'Apple',model:'iPhone 16 Pro',storage:'128GB',ram:'8GB',battery:'87%',colors:[{name:'Titanio desierto',bg:'#c8b89a',text:'#333'},{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'}],category:'iphone'},
+  {id:208,brand:'Apple',model:'iPhone 16 Pro Max',storage:'256GB',ram:'8GB',battery:'83%',colors:[{name:'Titanio desierto',bg:'#c8b89a',text:'#333'},{name:'Titanio negro',bg:'#2c2c2e',text:'#fff'}],category:'iphone'},
 ];
 const accessories=[
   {id:1,title:'Cargador MagSafe 15W Original',type:'Cargador',priceUsd:45,priceArs:47250},
@@ -718,16 +722,17 @@ const faqs=[
 ];
 
 function buildCard(p,type){
+  const waMsg=encodeURIComponent(`Hola! Me interesa el ${p.brand} ${p.model} ${p.storage}. ¿Cuál es el precio?`);
   return `<div class="product-card ${type} reveal${p.sale?' on-sale':''}" onclick="openModal(${p.id},'${type}')">
     ${p.sale?`<div class="sale-tag"><span class="tag-dot"></span>${p.saleLabel}</div>`:''}
     <div class="corner-badge ${type}">${type==='sellado'?'SELLADO':'SEMI'}</div>
     <div class="card-body">
       <div class="card-brand">${p.brand}</div>
       <div class="card-model">${p.model.replace(p.brand+' ','')}</div>
-      <div class="card-specs"><span class="spec-pill">${p.storage}</span><span class="spec-pill">${p.ram} RAM</span></div>
+      <div class="card-specs"><span class="spec-pill">${p.storage}</span></div>
       <div class="card-batt">🔋 ${p.battery}</div>
       <div class="card-colors">${p.colors.map(c=>`<span class="color-chip" style="background:${c.bg};color:${c.text}">${c.name}</span>`).join('')}</div>
-      <div class="card-price"><span class="price-cur">USD</span><span class="price-num">${p.price}</span></div>
+      <a href="https://wa.me/5492994655758?text=${waMsg}" target="_blank" class="btn-consult">💬 Consultar precio</a>
       <button class="btn-detail"><span>Ver detalles</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
     </div>
   </div>`;
@@ -769,7 +774,9 @@ const ps=[
 ];
 
 function renderPS(){
-  document.getElementById('grid-ps').innerHTML=ps.map(p=>`
+  document.getElementById('grid-ps').innerHTML=ps.map(p=>{
+    const waMsg=encodeURIComponent(`Hola! Me interesa: ${p.name}. ¿Cuál es el precio?`);
+    return `
     <div class="ps-card reveal${p.sale?' on-sale':''}" onclick="openPSModal(${p.id})">
       ${p.sale?`<div class="ps-sale-tag"><span class="tag-dot"></span>${p.saleLabel}</div>`:''}
       <div class="ps-badge">${p.badge}</div>
@@ -780,10 +787,11 @@ function renderPS(){
         <div class="ps-card-model">${p.name}</div>
         <div class="ps-card-specs">${p.specs.map(s=>`<span class="ps-spec">${s}</span>`).join('')}</div>
         ${p.colors.length?`<div class="ps-card-colors">${p.colors.map(c=>`<span class="ps-color" style="background:${c.bg};color:${c.text}">${c.name}</span>`).join('')}</div>`:''}
-        <div class="ps-card-price"><span class="ps-price-cur">USD</span><span class="ps-price-num">${p.price}</span></div>
+        <a href="https://wa.me/5492994655758?text=${waMsg}" target="_blank" class="btn-consult" style="margin-bottom:7px">💬 Consultar precio</a>
         <button class="ps-btn-detail"><span>Ver detalles</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
   observeReveal();
 }
 
@@ -794,28 +802,22 @@ function openModal(id,type){
   document.getElementById('modal-body').innerHTML=`
     <div class="m-tag">${p.brand} · ${type==='sellado'?'SELLADO':'SEMINUEVO'}</div>
     <h2 class="m-title">${p.model}</h2>
-    <div class="m-chips"><span class="m-chip">${p.storage}</span><span class="m-chip">${p.ram} RAM</span><span class="m-chip">🔋 ${p.battery}</span></div>
+    <div class="m-chips"><span class="m-chip">${p.storage}</span><span class="m-chip">🔋 ${p.battery}</span></div>
     <div class="m-grid">
       <div class="m-info"><div class="lbl">Marca</div><div class="val">${p.brand}</div></div>
       <div class="m-info"><div class="lbl">Almacenamiento</div><div class="val">${p.storage}</div></div>
-      <div class="m-info"><div class="lbl">RAM</div><div class="val">${p.ram}</div></div>
-      <div class="m-info"><div class="lbl">Estado</div><div class="val">${type==='sellado'?'Sellado · 12m gtía':'Seminuevo · 3m gtía'}</div></div>
+      <div class="m-info"><div class="lbl">Estado</div><div class="val">${type==='sellado'?'Sellado · Gtía 12 meses':'Seminuevo · Gtía 1 mes'}</div></div>
     </div>
     <div class="m-colors">${p.colors.map(c=>`<span class="m-cc" style="background:${c.bg};color:${c.text}">${c.name}</span>`).join('')}</div>
-    <div class="m-prices">
-      <div class="m-pbox"><div class="cur">USD</div><div class="num">${p.price}</div></div>
-      <div class="m-pbox"><div class="cur">ARS</div><div class="num">${p.priceArs.toLocaleString('es-AR')}</div></div>
+    <div class="m-extras">
+      ${type==='sellado'
+        ?'<div class="m-extra-item">✅ Garantía de fábrica 12 meses ante cualquier inconveniente técnico</div>'
+        :'<div class="m-extra-item">🔧 Garantía de 1 mes ante cualquier inconveniente técnico</div>'
+      }
+      <div class="m-extra-item">🔄 Aceptamos plan canje</div>
+      <div class="m-extra-item">💳 Tarjeta de crédito disponible</div>
     </div>
-    <div class="m-inst">
-      <div class="m-inst-hdr"><div class="m-inst-line"></div><p>Financiación</p><div class="m-inst-line"></div></div>
-      <div class="m-inst-grid">
-        <div class="m-inst-badge"><div class="m-inst-n">3 cuotas</div><div class="m-inst-v">$ ${Math.round(p.priceArs/3).toLocaleString('es-AR')}</div></div>
-        <div class="m-inst-badge"><div class="m-inst-n">6 cuotas</div><div class="m-inst-v">$ ${Math.round(p.priceArs/6).toLocaleString('es-AR')}</div></div>
-        <div class="m-inst-badge hl"><div class="m-inst-n">9 cuotas</div><div class="m-inst-v">$ ${Math.round(p.priceArs/9).toLocaleString('es-AR')}</div></div>
-        <div class="m-inst-badge hl"><div class="m-inst-n">12 cuotas</div><div class="m-inst-v">$ ${Math.round(p.priceArs/12).toLocaleString('es-AR')}</div></div>
-      </div>
-    </div>
-    <a href="https://wa.me/5493585079522?text=${wa}" class="m-wa" target="_blank">💬 Consultar por WhatsApp</a>
+    <a href="https://wa.me/5492994655758?text=${wa}" class="m-wa" target="_blank">💬 Consultar precio por WhatsApp</a>
     <p class="m-note">Respondemos en menos de 24 hs · Envíos a todo el país</p>`;
   document.getElementById('product-modal').classList.add('open');
   document.getElementById('modal-backdrop').classList.add('open');
@@ -835,11 +837,7 @@ function openPSModal(id){
       <div class="m-info"><div class="lbl">Estado</div><div class="val">${p.note}</div></div>
     </div>
     ${p.colors.length?`<div class="m-colors">${p.colors.map(c=>`<span class="m-cc" style="background:${c.bg};color:${c.text}">${c.name}</span>`).join('')}</div>`:''}
-    <div class="m-prices">
-      <div class="m-pbox ps"><div class="cur">USD</div><div class="num">${p.price}</div></div>
-      <div class="m-pbox ps"><div class="cur">ARS</div><div class="num">${p.priceArs.toLocaleString('es-AR')}</div></div>
-    </div>
-    <a href="https://wa.me/5493585079522?text=${wa}" class="m-wa" target="_blank">💬 Consultar por WhatsApp</a>
+    <a href="https://wa.me/5492994655758?text=${wa}" class="m-wa" target="_blank">💬 Consultar precio por WhatsApp</a>
     <p class="m-note">Respondemos en menos de 24 hs · Envíos a todo el país</p>`;
   document.getElementById('product-modal').classList.add('open');
   document.getElementById('modal-backdrop').classList.add('open');
@@ -854,7 +852,7 @@ function openAccModal(id){
       <div class="m-pbox"><div class="cur">USD</div><div class="num">${a.priceUsd}</div></div>
       <div class="m-pbox"><div class="cur">ARS</div><div class="num">${a.priceArs.toLocaleString('es-AR')}</div></div>
     </div>
-    <a href="https://wa.me/5493585079522?text=${wa}" class="m-wa" target="_blank" style="margin-top:16px">💬 Consultar por WhatsApp</a>
+    <a href="https://wa.me/5492994655758?text=${wa}" class="m-wa" target="_blank" style="margin-top:16px">💬 Consultar por WhatsApp</a>
     <p class="m-note">Respondemos en menos de 24 hs</p>`;
   document.getElementById('product-modal').classList.add('open');
   document.getElementById('modal-backdrop').classList.add('open');
